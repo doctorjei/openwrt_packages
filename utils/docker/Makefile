@@ -30,6 +30,7 @@ define Package/docker
   TITLE:=Docker Community Edition CLI
   URL:=https://www.docker.com/
   DEPENDS:=$(GO_ARCH_DEPENDS)
+  PROVIDES:=docker_compat
 endef
 
 define Package/docker/description
